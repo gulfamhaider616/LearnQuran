@@ -1,9 +1,10 @@
 ﻿
 @{
-    ViewBag.Title = "Registration | Learn Quran with E-Tutor";
+    ViewBag.Title = "Registration | Quran Learning Platform";
+    ViewBag.Description = "Register now to start your Quran learning journey. Create an account to access lessons, track progress, and connect with a guided learning experience.";
+    ViewBag.KeyWords = "registration, sign up, create account, quran learning platform, online quran learning, islamic education, student registration";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
-
 <section class="register-section pt-100 pb-100 loaded">
     <div class="container">
         <div class="register-box">
@@ -13,7 +14,7 @@
             </div>
 
             <!-- Login Form -->
-            <div  class="contact-form text-center">
+            <div class="contact-form text-center">
                 <div id="form-messages"></div>
                 <form id="contact-form" method="post" action="/User/SaveUser">
                     <div class="row clearfix">

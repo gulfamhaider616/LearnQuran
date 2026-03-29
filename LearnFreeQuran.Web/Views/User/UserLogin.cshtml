@@ -1,6 +1,7 @@
-﻿
-@{
-    ViewBag.Title = "UserLogin | Learn Quran with E-Tutor";
+﻿@{
+    ViewBag.Title = "User Login | Quran Learning Platform";
+    ViewBag.Description = "Log in to your account to access Quran lessons, track your progress, and continue your learning journey.";
+    ViewBag.KeyWords = "user login, sign in, quran learning platform, student login, access account, online quran learning";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
@@ -12,7 +13,7 @@
                     <h2 class="login">Login</h2>
                     <form action="/User/VerifyUser" method="post">
                         <input type="email" name="email" placeholder="E-mail" class="form-control" required=""><br />
-                        <input type="password" name="password" placeholder="Password"class="form-control" required=""><br />
+                        <input type="password" name="password" placeholder="Password" class="form-control" required=""><br />
                         <button type="submit" class="readon submit-btn btn-success form-control">login</button>
                         <div class="last-password">
                             <p>Not registered? <a href="/User/Registration">Create an account</a></p>

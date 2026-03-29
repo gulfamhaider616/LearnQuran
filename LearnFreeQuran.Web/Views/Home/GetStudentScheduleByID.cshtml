@@ -1,13 +1,13 @@
 ﻿
 @{
-    ViewBag.Title = " Student Schedule | Learn Quran with E-Tutor";
-    ViewBag.Description = "Learn Free Quran is online free service to teach you quran. After registration you will be scheduled here. On the basis of student ID you can check your schedule online.";
-    ViewBag.KeyWords = "Get Student ID,Get student by ID, get by id, Registered Students,StudentID,LFQ Students,LFQ, Learn Free Quran,Quran Tutor,Online Quran";
+    ViewBag.Title = "Student Schedule | Quran Learning Platform";
+    ViewBag.Description = "View your class schedule, upcoming sessions, and learning timetable. Stay organized and track your Quran learning progress بسهولة and efficiently.";
+    ViewBag.KeyWords = "student schedule, class timetable, quran learning schedule, online quran classes, session timing, learning dashboard, student timetable";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
 <div id="banner-wrapper">
-    <div id="banner" class="box container" >
+    <div id="banner" class="box container">
         <div class="row">
             <div class="col-md-12" style="width:100%;margin:0 auto;overflow-x:auto;">
                 <div style="float:right"><a href="/Home/EditView">Edit Profile</a></div><br>
@@ -16,10 +16,11 @@
                     <table border="0" style="width: 90%;">
                         <tr>
                             <td><label>Student ID<label style="color:red">*</label> :</label></td>
-                            <td><input type="text" style="width: 100% !important;max-width: 100%;" id="studentscheduleid" placeholder="enter student id" required /><br />
-                            <span> <a href="/Home/ForgetYourIDView">forget your id</a></span>
+                            <td>
+                                <input type="text" style="width: 100% !important;max-width: 100%;" id="studentscheduleid" placeholder="enter student id" required /><br />
+                                <span> <a href="/Home/ForgetYourIDView">forget your id</a></span>
                             </td>
-                            <td><input type="button"  id="studentshedulelogin" class="btn-success" style="padding: 1px;width: 100px;" value="Check" /></td>
+                            <td><input type="button" id="studentshedulelogin" class="btn-success" style="padding: 1px;width: 100px;" value="Check" /></td>
                         </tr>
                     </table>
                 </form>
@@ -38,7 +39,6 @@
                         </tr>
                     </thead>
                     <tbody id="schedulebody">
- 
                     </tbody>
                 </table>
             </div>
