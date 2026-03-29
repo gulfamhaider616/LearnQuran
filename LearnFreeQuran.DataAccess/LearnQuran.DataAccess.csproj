@@ -51,9 +51,9 @@
     <Compile Include="UserDA.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\LearnFreeQuran.Library\LearnFreeQuran.Library.csproj">
+    <ProjectReference Include="..\LearnFreeQuran.Library\LearnQuran.Library.csproj">
       <Project>{2a797efe-c20b-4e84-8171-b82485b5e58a}</Project>
-      <Name>LearnFreeQuran.Library</Name>
+      <Name>LearnQuran.Library</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

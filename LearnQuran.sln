@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearnFreeQuran.Web", "LearnFreeQuran.Web\LearnFreeQuran.Web.csproj", "{E0C06AE1-1F76-4464-A477-362B2C3703D8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearnQuran.Web", "LearnFreeQuran.Web\LearnQuran.Web.csproj", "{E0C06AE1-1F76-4464-A477-362B2C3703D8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearnFreeQuran.DataAccess", "LearnFreeQuran.DataAccess\LearnFreeQuran.DataAccess.csproj", "{4FCA920C-CE77-4BCF-988E-7A05C10925E1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearnQuran.DataAccess", "LearnFreeQuran.DataAccess\LearnQuran.DataAccess.csproj", "{4FCA920C-CE77-4BCF-988E-7A05C10925E1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearnFreeQuran.Business", "LearnFreeQuran.Business\LearnFreeQuran.Business.csproj", "{0129153A-D41D-4EE5-829A-A3ACDF0C860A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearnQuran.Business", "LearnFreeQuran.Business\LearnQuran.Business.csproj", "{0129153A-D41D-4EE5-829A-A3ACDF0C860A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearnFreeQuran.Library", "LearnFreeQuran.Library\LearnFreeQuran.Library.csproj", "{2A797EFE-C20B-4E84-8171-B82485B5E58A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearnQuran.Library", "LearnFreeQuran.Library\LearnQuran.Library.csproj", "{2A797EFE-C20B-4E84-8171-B82485B5E58A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

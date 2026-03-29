@@ -49,13 +49,13 @@
     <Compile Include="UserBA.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\LearnFreeQuran.DataAccess\LearnFreeQuran.DataAccess.csproj">
+    <ProjectReference Include="..\LearnFreeQuran.DataAccess\LearnQuran.DataAccess.csproj">
       <Project>{4fca920c-ce77-4bcf-988e-7a05c10925e1}</Project>
-      <Name>LearnFreeQuran.DataAccess</Name>
+      <Name>LearnQuran.DataAccess</Name>
     </ProjectReference>
-    <ProjectReference Include="..\LearnFreeQuran.Library\LearnFreeQuran.Library.csproj">
+    <ProjectReference Include="..\LearnFreeQuran.Library\LearnQuran.Library.csproj">
       <Project>{2a797efe-c20b-4e84-8171-b82485b5e58a}</Project>
-      <Name>LearnFreeQuran.Library</Name>
+      <Name>LearnQuran.Library</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

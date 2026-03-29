@@ -6453,7 +6453,6 @@
     <Content Include="assets\AyatAudios\114005.mp3" />
     <Content Include="assets\AyatAudios\114006.mp3" />
     <Content Include="assets\AyatAudios\bismillah.mp3" />
-    <Content Include="assets\css\font-awesome.min.css" />
     <Content Include="assets\css\googlefonts.css" />
     <Content Include="assets\css\main.css" />
     <Content Include="assets\fonts\fontawesome-webfont.svg" />
@@ -6509,8 +6508,6 @@
     <Content Include="assets\css\icons.min.css" />
     <Content Include="assets\css\jquery.circliful.css" />
     <Content Include="assets\css\owl.carousel.min.css" />
-    <Content Include="assets\css\responsive.css" />
-    <Content Include="assets\css\style.css" />
     <Content Include="assets\images\logo2.png" />
     <Content Include="assets\images\logo3.png" />
     <Content Include="assets\images\parallax6.jpg" />
@@ -6853,13 +6850,13 @@
     <None Include="Project_Readme.html" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\LearnFreeQuran.Business\LearnFreeQuran.Business.csproj">
+    <ProjectReference Include="..\LearnFreeQuran.Business\LearnQuran.Business.csproj">
       <Project>{0129153a-d41d-4ee5-829a-a3acdf0c860a}</Project>
-      <Name>LearnFreeQuran.Business</Name>
+      <Name>LearnQuran.Business</Name>
     </ProjectReference>
-    <ProjectReference Include="..\LearnFreeQuran.Library\LearnFreeQuran.Library.csproj">
+    <ProjectReference Include="..\LearnFreeQuran.Library\LearnQuran.Library.csproj">
       <Project>{2a797efe-c20b-4e84-8171-b82485b5e58a}</Project>
-      <Name>LearnFreeQuran.Library</Name>
+      <Name>LearnQuran.Library</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
